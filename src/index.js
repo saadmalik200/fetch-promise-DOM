@@ -9,7 +9,7 @@ const promiseFunction = new Promise((resolve, reject) => {
   //   console.log("Inside a promise");
   setTimeout(() => {
     resolve();
-  }, 60000);
+  }, 5000);
 });
 
 promiseFunction.then(() => {
